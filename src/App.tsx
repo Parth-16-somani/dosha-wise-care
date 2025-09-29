@@ -7,6 +7,7 @@ import LandingPage from "./pages/LandingPage";
 import LoginForm from "./components/auth/LoginForm";
 import DoshaAssessment from "./components/DoshaAssessment";
 import PatientDashboard from "./pages/PatientDashboard";
+import DietPlanManager from "./pages/DietPlanManager";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/signup" element={<LoginForm />} />
           <Route path="/assessment" element={<DoshaAssessment />} />
           <Route path="/dashboard" element={<PatientDashboard />} />
+          <Route path="/diet-plan" element={<DietPlanManager />} />
           <Route path="/dietitian-dashboard" element={<PatientDashboard />} />
           <Route path="/admin-dashboard" element={<PatientDashboard />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

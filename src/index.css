@@ -8,56 +8,56 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Ayurvedic-inspired color palette */
-    --background: 45 20% 98%;
-    --foreground: 30 20% 15%;
+    /* Brand Colors from uploaded palette */
+    --background: 45 15% 97%; /* Peachy Skin light */
+    --foreground: 0 0% 11%; /* Midnight Black */
 
     --card: 0 0% 100%;
-    --card-foreground: 30 20% 15%;
+    --card-foreground: 0 0% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 30 20% 15%;
+    --popover-foreground: 0 0% 11%;
 
-    /* Primary: Deep emerald green */
-    --primary: 155 65% 25%;
+    /* Primary: Ferny Green */
+    --primary: 157 100% 12%; /* #023E20 */
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 155 65% 35%;
+    --primary-glow: 157 100% 20%;
 
-    /* Secondary: Warm gold */
-    --secondary: 45 85% 65%;
-    --secondary-foreground: 30 20% 15%;
+    /* Secondary: Bright Mint */
+    --secondary: 150 65% 88%; /* #D2F1E2 */
+    --secondary-foreground: 0 0% 11%;
 
-    /* Muted: Soft sage */
-    --muted: 120 15% 90%;
-    --muted-foreground: 30 15% 45%;
+    /* Muted: Light peachy */
+    --muted: 45 15% 92%;
+    --muted-foreground: 0 0% 40%;
 
-    /* Accent: Warm amber */
-    --accent: 38 95% 60%;
-    --accent-foreground: 0 0% 98%;
+    /* Accent: Peachy Skin */
+    --accent: 41 78% 87%; /* #FAE1CB */
+    --accent-foreground: 0 0% 11%;
 
-    /* Wellness variants */
+    /* Wellness variants (enhanced with brand colors) */
     --wellness-vata: 220 50% 60%;
     --wellness-pitta: 15 85% 55%;
-    --wellness-kapha: 155 45% 45%;
+    --wellness-kapha: 157 100% 12%; /* Using Ferny Green for Kapha */
 
     --destructive: 0 75% 55%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 120 15% 85%;
+    --border: 150 20% 85%;
     --input: 0 0% 100%;
-    --ring: 155 65% 35%;
+    --ring: 157 100% 20%;
 
     --radius: 0.75rem;
 
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(155 65% 25%), hsl(155 65% 35%));
-    --gradient-wellness: linear-gradient(135deg, hsl(155 45% 45%), hsl(45 85% 65%));
-    --gradient-hero: linear-gradient(135deg, hsl(155 65% 25%) 0%, hsl(45 85% 65%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(45 20% 98%), hsl(120 15% 95%));
+    /* Brand-based Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(157 100% 12%), hsl(157 100% 20%));
+    --gradient-wellness: linear-gradient(135deg, hsl(157 100% 12%), hsl(150 65% 88%));
+    --gradient-hero: linear-gradient(135deg, hsl(157 100% 12%) 0%, hsl(41 78% 87%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(45 15% 97%), hsl(150 20% 95%));
 
-    /* Shadows */
-    --shadow-wellness: 0 10px 30px -10px hsl(155 65% 25% / 0.3);
-    --shadow-glow: 0 0 40px hsl(155 65% 35% / 0.4);
+    /* Shadows with brand colors */
+    --shadow-wellness: 0 10px 30px -10px hsl(157 100% 12% / 0.3);
+    --shadow-glow: 0 0 40px hsl(157 100% 20% / 0.4);
 
     /* Animations */
     --transition-wellness: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -80,31 +80,31 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 30 20% 8%;
-    --foreground: 45 20% 92%;
+    --background: 0 0% 7%; /* Dark Midnight Black */
+    --foreground: 45 15% 95%;
 
-    --card: 30 20% 10%;
-    --card-foreground: 45 20% 92%;
+    --card: 0 0% 9%;
+    --card-foreground: 45 15% 95%;
 
-    --popover: 30 20% 10%;
-    --popover-foreground: 45 20% 92%;
+    --popover: 0 0% 9%;
+    --popover-foreground: 45 15% 95%;
 
-    --primary: 155 65% 45%;
-    --primary-foreground: 30 20% 8%;
-    --primary-glow: 155 65% 55%;
+    --primary: 157 80% 25%; /* Brighter Ferny Green for dark mode */
+    --primary-foreground: 45 15% 95%;
+    --primary-glow: 157 80% 35%;
 
-    --secondary: 45 85% 45%;
-    --secondary-foreground: 30 20% 8%;
+    --secondary: 150 50% 70%; /* Adapted Bright Mint for dark */
+    --secondary-foreground: 0 0% 7%;
 
-    --muted: 30 15% 15%;
+    --muted: 0 0% 15%;
     --muted-foreground: 45 15% 65%;
 
-    --accent: 38 95% 50%;
-    --accent-foreground: 30 20% 8%;
+    --accent: 41 60% 75%; /* Adapted Peachy Skin for dark */
+    --accent-foreground: 0 0% 7%;
 
     --wellness-vata: 220 50% 70%;
     --wellness-pitta: 15 85% 65%;
-    --wellness-kapha: 155 45% 55%;
+    --wellness-kapha: 157 80% 35%; /* Dark mode Ferny Green */
 
     --destructive: 0 75% 60%;
     --destructive-foreground: 30 20% 8%;
@@ -113,13 +113,13 @@ All colors MUST be HSL.
     --input: 30 15% 15%;
     --ring: 155 65% 45%;
 
-    --gradient-primary: linear-gradient(135deg, hsl(155 65% 35%), hsl(155 65% 45%));
-    --gradient-wellness: linear-gradient(135deg, hsl(155 45% 35%), hsl(45 85% 45%));
-    --gradient-hero: linear-gradient(135deg, hsl(155 65% 35%) 0%, hsl(45 85% 45%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(30 20% 8%), hsl(30 15% 12%));
+    --gradient-primary: linear-gradient(135deg, hsl(157 80% 25%), hsl(157 80% 35%));
+    --gradient-wellness: linear-gradient(135deg, hsl(157 80% 25%), hsl(150 50% 70%));
+    --gradient-hero: linear-gradient(135deg, hsl(157 80% 25%) 0%, hsl(41 60% 75%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 7%), hsl(0 0% 12%));
 
-    --shadow-wellness: 0 10px 30px -10px hsl(155 65% 35% / 0.5);
-    --shadow-glow: 0 0 40px hsl(155 65% 45% / 0.6);
+    --shadow-wellness: 0 10px 30px -10px hsl(157 80% 25% / 0.5);
+    --shadow-glow: 0 0 40px hsl(157 80% 35% / 0.6);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

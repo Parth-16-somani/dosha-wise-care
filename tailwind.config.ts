@@ -82,6 +82,10 @@ export default {
       transitionTimingFunction: {
         'wellness': 'var(--transition-wellness)',
       },
+      fontFamily: {
+        'abril': ['Abril Fatface', 'serif'],
+        'general': ['General Sans', 'sans-serif'],
+      },
       keyframes: {
         "accordion-down": {
           from: {

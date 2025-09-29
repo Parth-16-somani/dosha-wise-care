@@ -48,8 +48,8 @@ const Navigation = ({ userRole = "guest", userName }: NavigationProps) => {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
             <Leaf className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              AyurWellness
+            <span className="text-xl font-abril bg-gradient-primary bg-clip-text text-transparent">
+              AyurNutri
             </span>
           </Link>
 
